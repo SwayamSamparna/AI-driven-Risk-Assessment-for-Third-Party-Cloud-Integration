@@ -1,0 +1,4 @@
+Vendor,DataSensitivity,MFA,Encryption,Certifications,SLA,ComplianceGaps,BaseRisk,AnomalyBonus,TotalRisk,RiskLevel,AI_Anomaly
+PayCloud HR,5,1,1,2,1,0,6.5,0.0,6.5,Low,No
+Market360,3,0,1,0,0,1,7.0,0.0,7.0,Medium,No
+MediCloud,5,1,0,1,1,2,12.0,0.0,12.0,High,Yes

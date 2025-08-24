@@ -1,0 +1,12 @@
+Factor,Description,InputType,Weight,ScoringNotes
+DataSensitivity,"How sensitive is the data handled? (1=Low,2=Med,3=High)",ordinal(1-3),3.0,Higher is riskier
+ComplianceGaps,Outstanding compliance/control gaps (0-3),ordinal(0-3),2.5,Higher is riskier
+BreachHistory,Known breach in last 3 years? (0/1),binary(0/1),3.0,1 adds risk
+SLA,"SLA strength (1=Weak,2=Med,3=Strong)",ordinal(1-3),-1.0,Lower SLA increases risk (handled as penalty)
+GeoResidencyRisk,Data stored in higher-risk/unknown jurisdictions (0-3),ordinal(0-3),2.0,Higher is riskier
+EncryptionAtRest,"Implemented? (1=Yes,0=No)",binary(0/1),-2.0,Missing adds risk
+EncryptionInTransit,"Implemented? (1=Yes,0=No)",binary(0/1),-2.0,Missing adds risk
+MFA,"Admin MFA enabled? (1=Yes,0=No)",binary(0/1),-2.0,Missing adds risk
+Subprocessors,Number of sub-processors,count,0.5,More increases risk
+Cert_ISO27001,"Has ISO27001? (1=Yes,0=No)",binary(0/1),-1.0,Missing adds risk
+Cert_SOC2,"Has SOC2? (1=Yes,0=No)",binary(0/1),-1.0,Missing adds risk

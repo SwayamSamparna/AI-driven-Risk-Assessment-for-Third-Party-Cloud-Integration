@@ -1,0 +1,38 @@
+Third-Party Cloud Integration – Risk Questionnaire (Starter)
+=====================================================
+Instructions: Send these questions to each vendor/integration owner. Keep answers concise.
+For unknown answers, mark as "Unknown" and treat as higher risk in scoring.
+
+A. Basics
+1. Vendor/Service name:
+2. Service type (SaaS / IaaS / PaaS / API):
+3. Data processed (PII/PHI/Financial/Source Code/Telemetry/Other):
+4. Regions where data is stored/processed (countries/regions):
+5. Sub-processors used (Yes/No). If Yes, how many?
+
+B. Security Controls
+6. Encryption at rest implemented? (Yes/No/Unknown)
+7. Encryption in transit (TLS 1.2+) implemented? (Yes/No/Unknown)
+8. Multi-factor authentication supported for admin access? (Yes/No/Unknown)
+9. SSO supported? (SAML/OIDC/None)
+10. Privileged access monitoring in place? (Yes/No/Unknown)
+
+C. Compliance & Assurance
+11. Current certifications (ISO/IEC 27001, SOC 2 Type II, PCI DSS, HIPAA, GDPR readiness):
+12. Last external audit date:
+13. Past security incidents/breaches in last 3 years? (Yes/No) If Yes, details:
+
+D. Operations & Resilience
+14. SLA uptime commitment:
+15. RTO/RPO targets:
+16. Incident response & customer notification policy in place? (Yes/No/Unknown)
+
+E. Data Governance
+17. Data retention policy duration:
+18. Data residency constraints (country/region requirements):
+19. Right to audit clauses in contract? (Yes/No/Unknown)
+
+F. Integration Details
+20. Access pattern (batch/API/real-time):
+21. Required roles/permissions (principle of least privilege followed?):
+22. Logs available for customer (API/console/export)? (Yes/No)
